@@ -1,0 +1,646 @@
+
+.main{
+    height: 195vmin;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    cursor: pointer;
+
+
+}
+
+   /* Headline */
+
+.headline{
+    height: 10vmin;
+    width: 100%;
+    display: flex;
+   align-items: center;
+    justify-content: space-around;
+    font-size: 2.3vmin;
+    text-align: center;
+  
+    color: firebrick;
+  
+
+/* border: 1px solid red; */
+
+}
+
+
+  /* Image div */
+
+.firstDiv{
+    min-height: 50vmin;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-image: url('../../images/messi.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-origin: content-box;
+    cursor: pointer;
+    border-radius: 7px;
+    
+   /* border: 5px solid blue; */
+  
+}
+
+
+
+.secondDiv{
+
+    min-height: 20vmin;
+        width: 60%;
+        font-size: 1.85vmin;
+
+       /* border: 2px solid red; */
+
+}
+
+
+/* Table Div */
+
+.threeddDiv{
+    height: 50vmin;
+    width: 60%;
+    font-size: 1.7vmin;
+
+    margin-bottom: 40px;
+ 
+
+}
+
+.fourDiv{
+    min-height: 6vmin;
+    display: flex;
+    align-items: center;
+
+font-size: 1.8vmin;
+    /* border: 1px solid red; */
+
+}
+
+
+.fiveDiv{
+
+    min-height: 40vmin;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 2vmin;
+
+
+       /* border: 1px solid red; */
+
+}
+
+
+.fiveDivHeadline{
+    color: firebrick;
+    font-size: 2.3vmin;
+
+}
+
+
+
+
+
+
+
+    @media only screen and (max-width: 1200px) {
+
+
+
+        .secondDiv {
+        
+                min-height: 25vmin;
+                width: 60%;
+                font-size: 1.85vmin;
+        
+             
+        
+            }
+
+
+
+
+
+        .fiveDiv {
+        
+                min-height: 40vmin;
+                width: 60%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                font-size: 2vmin;
+        
+        
+              
+        
+            }
+        
+        
+            .fiveDivHeadline {
+                color: firebrick;
+                font-size: 2.3vmin;
+        
+            }
+
+        
+
+
+    }
+
+    
+
+    
+
+
+         @media only screen and (max-width: 992px) {
+
+
+
+            .headline {
+                    height: 10vmin;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    font-size: 2.3vmin;
+                    text-align: center;
+            
+                    color: firebrick;
+            
+            
+               
+            
+                }
+            
+            
+                /* Image div */
+            
+                .firstDiv {
+                    min-height: 50vmin;
+                    width: 60%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: relative;
+                    background-image: url('../../images/messi.jpg');
+                    background-repeat: no-repeat;
+                    background-position: bottom;
+                    background-attachment: fixed;
+                    background-origin: content-box;
+                    cursor: pointer;
+                    border-radius: 7px;
+            
+                  
+            
+                }
+            
+            
+            
+                .secondDiv {
+            
+                    min-height: 25vmin;
+                    width: 60%;
+                    font-size: 1.75vmin;
+            
+                  
+            
+                }
+            
+            
+                /* Table Div */
+            
+                .threeddDiv {
+                    height: 50vmin;
+                    width: 60%;
+                    font-size: 1.5vmin;
+            
+                    margin-bottom: 40px;
+            
+            
+                }
+            
+                .fourDiv {
+                    min-height: 6vmin;
+                    display: flex;
+                    align-items: center;
+                    font-size: 1.7vmin;
+            
+            
+                    
+            
+                }
+            
+            
+                .fiveDiv {
+            
+                    min-height: 45vmin;
+                    width: 60%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    font-size: 1.8vmin;
+            
+            
+            
+                }
+            
+            
+                .fiveDivHeadline {
+                    color: firebrick;
+                    font-size: 2.1vmin;
+            
+                }
+
+
+         }
+
+
+
+
+
+
+
+
+
+                 @media only screen and (max-width: 768px) {
+
+
+                    .main {
+                            height: 210vmin;
+                            width: 100%;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: space-around;
+                    
+                            cursor: pointer;
+                    
+                    
+                        }
+        
+        
+        
+                     .headline {
+                         height: 10vmin;
+                         width: 100%;
+                         display: flex;
+                         align-items: center;
+                         justify-content: space-around;
+                         font-size: 2.1vmin;
+                         text-align: center;
+        
+                         color: firebrick;
+        
+        
+                     
+        
+                     }
+        
+        
+                     /* Image div */
+        
+                     .firstDiv {
+                         min-height: 50vmin;
+                         width: 70%;
+                         display: flex;
+                         align-items: center;
+                         justify-content: center;
+                         position: relative;
+                         background-image: url('../../images/messi.jpg');
+                         background-repeat: no-repeat;
+                         background-position: bottom;
+                         background-attachment: fixed;
+                         background-origin: content-box;
+                         cursor: pointer;
+                         border-radius: 7px;
+        
+                
+        
+                     }
+        
+        
+        
+                     .secondDiv {
+        
+                         min-height: 30vmin;
+                         width: 70%;
+                         font-size: 1.85vmin;
+        
+               
+        
+                     }
+        
+        
+                     /* Table Div */
+        
+                     .threeddDiv {
+                         height: 50vmin;
+                         width: 70%;
+                         font-size: 1.5vmin;
+        
+                         margin-bottom: 40px;
+        
+        
+                     }
+        
+                     .fourDiv {
+                         min-height: 6vmin;
+                         display: flex;
+                         align-items: center;
+                         font-size: 1.85vmin;
+        
+        
+        
+        
+                     }
+        
+        
+                     .fiveDiv {
+        
+                         min-height: 45vmin;
+                         width: 70%;
+                         display: flex;
+                         flex-direction: column;
+                         justify-content: space-around;
+                         font-size: 1.8vmin;
+        
+        
+                     
+        
+                     }
+        
+        
+                     .fiveDivHeadline {
+                        color: firebrick;
+                         font-size: 2.1vmin;
+        
+                     }
+        
+        
+                 }
+
+
+
+
+
+
+                                 @media only screen and (max-width: 600px) {
+                
+                
+                                     .main {
+                                         height: 220vmin;
+                                         width: 100%;
+                                         display: flex;
+                                         flex-direction: column;
+                                         align-items: center;
+                                         justify-content: space-around;
+                
+                                         cursor: pointer;
+                
+                
+                                     }
+                
+                
+                
+                                     .headline {
+                                         height: 15vmin;
+                                         width: 90%;
+                                         display: flex;
+                                         align-items: center;
+                                         justify-content: space-around;
+                                         font-size: 3vmin;
+                                         text-align: center;
+                                         text-align: center;
+                
+                                         color: firebrick;
+                
+                
+                                       
+                
+                                     }
+                
+                
+                                     /* Image div */
+                
+                                     .firstDiv {
+                                         min-height: 50vmin;
+                                         width: 75%;
+                                         display: flex;
+                                         align-items: center;
+                                         justify-content: center;
+                                         position: relative;
+                                         background-image: url('../../images/messi.jpg');
+                                         background-repeat: no-repeat;
+                                         background-position: bottom;
+                                         background-attachment: fixed;
+                                         background-origin: content-box;
+                                         cursor: pointer;
+                                         border-radius: 7px;
+                
+                                     
+                
+                                     }
+                
+                
+                
+                                     .secondDiv {
+                
+                                         min-height: 55vmin;
+                                         width: 75%;
+                                         font-size: 2.7vmin;
+                
+                                        
+                
+                                     }
+                
+                
+                                     /* Table Div */
+                
+                                     .threeddDiv {
+
+                                        display: none;
+                                       
+                
+                                     }
+
+
+                                  
+                
+                                     .fourDiv {
+                                     
+                                         min-height: 10vmin;
+                                         display: flex;
+                                         align-items: center;
+                                         font-size: 2.7vmin;
+                
+                
+                
+                
+                                     }
+                
+                
+                                     .fiveDiv {
+                
+                                         min-height: 70vmin;
+                                         width: 75%;
+                                         display: flex;
+                                         flex-direction: column;
+                                         justify-content: space-around;
+                                         font-size: 2.6vmin;
+                
+                
+                                    
+                
+                                     }
+                
+                
+                                     .fiveDivHeadline {
+                                         color: firebrick;
+                                         font-size: 2.4vmin;
+                
+                                     }
+                
+                
+                                 }
+
+
+
+
+
+
+
+
+
+
+
+
+                       @media only screen and (max-width: 500px) {
+                                
+                                
+                                                                      .main {
+                                                                          height: 240vmin;
+                                                                          width: 100%;
+                                                                          display: flex;
+                                                                          flex-direction: column;
+                                                                          align-items: center;
+                                                                          justify-content: space-around;
+                                
+                                                                          cursor: pointer;
+                                
+                                
+                                                                      }
+                                
+                                
+                                
+                                                                      .headline {
+                                                                        margin-top: 40px;
+                                                                          height: 15vmin;
+                                                                          width: 85%;
+                                                                          display: flex;
+                                                                          align-items: center;
+                                                                          justify-content: space-around;
+                                                                          font-size: 3.2vmin;
+                                                                          text-align: center;
+                                                                          text-align: center;
+                                
+                                                                          color: firebrick;
+                                
+                                
+                                
+                                                                      }
+                                
+                                
+                                                                      /* Image div */
+                                
+                                                                      .firstDiv {
+                                                                          min-height: 50vmin;
+                                                                          width: 75%;
+                                                                          display: flex;
+                                                                          align-items: center;
+                                                                          justify-content: center;
+                                                                          position: relative;
+                                                                          background-image: url('../../images/messi.jpg');
+                                                                          background-repeat: no-repeat;
+                                                                          background-position: bottom;
+                                                                          background-attachment: fixed;
+                                                                          background-origin: content-box;
+                                                                          cursor: pointer;
+                                                                          border-radius: 7px;
+                                
+                                                                        
+
+                                                                      }
+                                
+                                
+                                
+                                                                      .secondDiv {
+                                
+                                                                          min-height: 55vmin;
+                                                                          width: 75%;
+                                                                          font-size: 2.7vmin;
+                                
+                                                                        
+                                
+                                                                      }
+                                
+                                
+                                                                      /* Table Div */
+                                
+                                                                      .threeddDiv {
+                                
+                                                                          display: none;
+                                
+                                
+                                                                      }
+                                
+                                
+                                
+                                
+                                                                      .fourDiv {
+                                
+                                                                          min-height: 10vmin;
+                                                                          display: flex;
+                                                                          align-items: center;
+                                                                          font-size: 2.7vmin;
+                                
+                                
+                                
+                                
+                                                                      }
+                                
+                                
+                                                                      .fiveDiv {
+                                
+                                                                          min-height: 70vmin;
+                                                                          width: 75%;
+                                                                          display: flex;
+                                                                          flex-direction: column;
+                                                                          justify-content: space-around;
+                                                                          font-size: 2.6vmin;
+                                
+                                
+                                                                  
+                                
+                                                                      }
+                                
+                                
+                                                                      .fiveDivHeadline {
+                                                                          color: firebrick;
+                                                                          font-size: 2.8vmin;
+                                
+                                                                      }
+                                
+                                
+                                                                  }

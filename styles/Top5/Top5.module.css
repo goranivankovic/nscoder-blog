@@ -1,0 +1,448 @@
+
+
+
+.main {
+
+    height: 330vmin;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.firstDiv {
+    width: 60%;
+    height: 60vmin;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+    border-bottom: 2px solid black;
+    
+
+
+
+}
+
+.headline {
+
+    font-size: 2.5vmin;
+
+}
+
+.flag {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+}
+
+.year {
+
+    font-size: 1.9vmin;
+}
+
+.team {
+    font-size: 1.9vmin;
+}
+
+.points {
+    font-size: 1.9vmin;
+}
+
+.ranking {
+    font-size: 1.9vmin;
+}
+
+
+
+.firstDivText {
+    display: flex;
+    align-items: center;
+    height: 20vmin;
+    padding-right: 10px;
+    font-size: 1.9vmin;
+
+
+
+
+}
+
+
+
+.button {
+    padding: 6px;
+    height: 5vmin;
+    width: 22vmin;
+    cursor: pointer;
+    border: 2.5px solid blue;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    font-size: 2vmin;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+.button:hover {
+    transition: 750ms;
+    transform: scale(.95);
+    border: none;
+    background-color: blue;
+    color: white;
+}
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+
+    .firstDivText {
+            display: flex;
+            align-items: center;
+            height: 30vmin;
+            padding-right: 10px;
+            font-size: 1.9vmin;
+    
+    
+      
+    
+        }
+
+
+
+
+}
+
+
+
+
+@media only screen and (max-width:992px) {
+
+    .firstDivText {
+        display: flex;
+        align-items: center;
+        height: 30vmin;
+        padding-right: 10px;
+        font-size: 1.7vmin;
+
+
+ 
+
+    }
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width:768px) {
+
+
+    .main {
+    
+            height: 355vmin;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-around;
+            cursor: pointer;
+        }
+    
+        .firstDiv {
+            width: 70%;
+            height: 65vmin;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+    
+            border-bottom: 2px solid black;
+    
+    
+ 
+    
+        }
+    
+        .headline {
+    
+            font-size: 2.5vmin;
+    
+        }
+    
+        .flag {
+            height:20px;
+            width: 20px;
+            margin-left: 10px;
+        }
+    
+        .year {
+    
+            font-size: 1.9vmin;
+        }
+    
+        .team {
+            font-size: 1.9vmin;
+        }
+    
+        .points {
+            font-size: 1.9vmin;
+        }
+    
+        .ranking {
+            font-size: 1.9vmin;
+        }
+    
+    
+    
+        .firstDivText {
+            display: flex;
+            align-items: center;
+            max-height: 35vmin;
+            padding-right: 10px;
+            font-size: 1.7vmin;
+            overflow: scroll;
+            padding-top: 60px;
+    
+    
+         
+    
+        }
+    
+    
+    
+        .button {
+            padding: 6px;
+            height: 5vmin;
+            width: 22vmin;
+            cursor: pointer;
+            border: 2.5px solid blue;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 7px;
+            font-size: 2vmin;
+        }
+
+    
+
+
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width:600px) {
+
+
+    .main {
+
+        height: 400vmin;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        cursor: pointer;
+    }
+
+    .firstDiv {
+        width: 80%;
+        height: 75vmin;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+
+        border-bottom: 2px solid black;
+
+
+     
+
+    }
+
+    .headline {
+
+        font-size: 2.8vmin;
+
+    }
+
+    .flag {
+        height: 15px;
+        width: 15px;
+        margin-left: 10px;
+    }
+
+    .year {
+
+        font-size: 2.3vmin;
+    }
+
+    .team {
+        font-size: 2.3vmin
+    }
+
+    .points {
+        font-size: 2.3vmin
+    }
+
+    .ranking {
+        font-size: 2.3vmin
+    }
+
+
+
+    .firstDivText {
+        display: flex;
+        align-items: center;
+        height: 45vmin;
+        padding-right: 10px;
+        font-size: 2.3vmin;
+        overflow: scroll;
+        padding-top: 60px;
+      
+
+
+      
+
+    }
+
+
+
+    .button {
+        padding: 6px;
+        height: 6vmin;
+        width: 22vmin;
+        cursor: pointer;
+        border: 2.5px solid blue;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 7px;
+        font-size: 2.5vmin;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width:500px) {
+
+
+    .main {
+
+        height: 480vmin;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        cursor: pointer;
+    }
+
+    .firstDiv {
+        width: 80%;
+        height: 75vmin;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+
+        border-bottom: 2px solid black;
+
+
+
+    }
+
+    .headline {
+
+        font-size: 3vmin;
+        border-bottom: 2px solid black;
+
+    }
+
+    .flag {
+        height: 15px;
+        width: 15px;
+        margin-left: 10px;
+    }
+
+    .year {
+
+        font-size: 2.5vmin;
+    }
+
+    .team {
+        font-size: 2.8vmin
+    }
+
+    .points {
+        font-size: 2.8vmin
+    }
+
+    .ranking {
+        font-size: 2.8vmin
+    }
+
+
+
+    .firstDivText {
+        display: flex;
+        align-items: center;
+        height: 45vmin;
+        padding-right: 10px;
+        font-size: 2.8vmin;
+        overflow: scroll;
+        padding-top: 60px;
+
+
+
+ 
+
+    }
+
+
+
+    .button {
+        padding: 6px;
+        height: 6.5vmin;
+        width: 24vmin;
+        cursor: pointer;
+        border: 2.5px solid blue;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 7px;
+        font-size: 2.5vmin;
+    }
+
+
+
+
+
+
+}

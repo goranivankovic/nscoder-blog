@@ -1,0 +1,789 @@
+
+.main {
+    height: 175vmin;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+.firstDiv {
+    height: 20vmin;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 2.1vmin;
+    color: black;
+
+/* border: 2px solid green; */
+
+
+}
+
+.firstDivHeadline {
+    font-size: 2.8vmin;
+
+}
+
+
+
+
+.secondDiv {
+    height: 30vmin;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    font-size: 2vmin;
+    padding-right: 10px;
+
+
+    color: black;
+
+/* border: 2px solid teal; */
+
+}
+
+
+.secondDivHeadline {
+    color: firebrick;
+    border-bottom: 2px solid black;
+    font-size: 2.6vmin;
+    padding-bottom: 6px;
+    width: 25vmin;
+}
+
+
+.exampleHeadline {
+    height: 7vmin;
+    width: 60%;
+    display: flex;
+    align-items: flex-end;
+    color: blue;
+    font-size: 2.4vmin;
+
+    border-bottom: 2px solid black;
+    margin-bottom: 15px;
+
+
+/* border: 2px solid red; */
+
+}
+
+
+
+
+
+.threedDiv {
+
+    height: 30vmin;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.9vmin;
+    padding-right: 10px;
+    color: black;
+
+
+/* border: 2px solid rgb(78, 78, 38); */
+
+}
+
+
+
+.threedDivLeft {
+    height: 28vmin;
+    width: 47%;
+    font-size: 2vmin;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+
+}
+
+
+.threedRight {
+    width: 40%;
+    height: 28vmin;
+    padding-right: 10px;
+    overflow: scroll;
+}
+
+
+
+
+.fourDiv {
+
+    height: 30vmin;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.9vmin;
+    padding-right: 10px;
+    color: black;
+
+/* border: 2px solid rgb(0, 255, 0); */
+
+}
+
+.fourDivLeft {
+
+    height: 18vmin;
+    width: 47%;
+    font-size: 1.9vmin;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+
+}
+
+
+.fourDivRight {
+
+    width: 40%;
+    height: 28vmin;
+    padding-right: 10px;
+    overflow: scroll;
+
+}
+
+
+
+
+
+
+
+
+.fiveDiv {
+
+    height: 30vmin;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.9vmin;
+    padding-right: 10px;
+    color: black;
+
+  /* border: 2px solid rgb(20, 19, 18); */
+
+}
+
+.fiveDivLeft {
+
+    height: 18vmin;
+    width: 47%;
+    font-size: 1.9vmin;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+
+}
+
+
+.fiveDivRight {
+
+        width: 40%;
+        height: 28vmin;
+        padding-right: 10px;
+        overflow: scroll;
+
+}
+ 
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+
+    .main {
+            height: 165vmin;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
+            cursor: pointer;
+        }
+    
+    
+    
+        .firstDiv {
+            margin-top:50px;
+            height: 20vmin;
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            font-size: 2.1vmin;
+            color: black;
+    
+   
+    
+    
+        }
+    
+        .firstDivHeadline {
+            font-size: 2.8vmin;
+    
+        }
+    
+    
+    
+    
+        .secondDiv {
+            height: 40vmin;
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+    
+            font-size: 2vmin;
+            padding-right: 10px;
+    
+    
+            color: black;
+    
+     
+    
+        }
+    
+    
+        .secondDivHeadline {
+            color: firebrick;
+            border-bottom: 2px solid black;
+            font-size: 2.6vmin;
+            padding-bottom: 6px;
+            width: 25vmin;
+        }
+    
+    
+        .exampleHeadline {
+            height: 7vmin;
+            width: 60%;
+            display: flex;
+            align-items: flex-end;
+            color: blue;
+            font-size: 2.4vmin;
+    
+            border-bottom: 2px solid black;
+            margin-bottom: 15px;
+    
+    
+        
+        }
+    
+    
+    
+    
+    
+        .threedDiv {
+    
+            height: 30vmin;
+            width: 60%;
+            display: flex;
+            justify-content: space-between;
+            font-size: 1.9vmin;
+            padding-right: 10px;
+            color: black;
+    
+    
+       
+    
+        }
+    
+    
+    
+        .threedDivLeft {
+            height: 28vmin;
+            width: 80%;
+            font-size: 2vmin;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+    
+    
+        }
+    
+    
+        .threedRight {
+           display: none;
+        }
+    
+    
+    
+    
+        .fourDiv {
+    
+            height: 20vmin;
+            width: 60%;
+            display: flex;
+            justify-content: space-between;
+            font-size: 1.9vmin;
+            padding-right: 10px;
+            color: black;
+    
+      
+    
+        }
+    
+        .fourDivLeft {
+    
+            height: 18vmin;
+            width: 80%;
+            font-size: 1.9vmin;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+    
+    
+        }
+    
+    
+        .fourDivRight {
+    
+        display: none;
+    
+        }
+    
+    
+    
+    
+    
+    
+    
+    
+        .fiveDiv {
+    
+            height: 20vmin;
+            width: 60%;
+            display: flex;
+            justify-content: space-between;
+            font-size: 1.9vmin;
+            padding-right: 10px;
+            color: black;
+    
+          
+    
+        }
+    
+        .fiveDivLeft {
+    
+            height: 18vmin;
+            width: 80%;
+            font-size: 1.9vmin;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+    
+    
+        }
+    
+    
+        .fiveDivRight {
+    
+        display: none;
+    
+        }
+
+
+ 
+
+   
+
+  
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+
+    .main {
+        height: 175vmin;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+    }
+
+
+
+    .firstDiv {
+        margin-top: 50px;
+        height: 20vmin;
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 2.4vmin;
+        color: black;
+
+
+
+
+    }
+
+    .firstDivHeadline {
+        font-size: 3vmin;
+
+    }
+
+
+
+
+    .secondDiv {
+        height: 40vmin;
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        font-size: 2.3vmin;
+        padding-right: 10px;
+
+
+        color: black;
+
+
+
+    }
+
+
+    .secondDivHeadline {
+        color: firebrick;
+        border-bottom: 2px solid black;
+        font-size: 2.8vmin;
+        padding-bottom: 6px;
+        width: 25vmin;
+    }
+
+
+    .exampleHeadline {
+        height: 7vmin;
+        width: 65%;
+        display: flex;
+        align-items: flex-end;
+        color: blue;
+        font-size: 2.6vmin;
+
+        border-bottom: 2px solid black;
+        margin-bottom: 15px;
+
+
+
+    }
+
+
+
+
+
+    .threedDiv {
+
+        height: 30vmin;
+        width: 65%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 2.5vmin;
+        padding-right: 10px;
+        color: black;
+
+
+
+
+    }
+
+
+
+    .threedDivLeft {
+        height: 28vmin;
+        width: 80%;
+        font-size: 2.3vmin;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+
+
+    }
+
+
+   
+
+
+    .fourDiv {
+
+        height: 20vmin;
+        width: 65%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.9vmin;
+        padding-right: 10px;
+        color: black;
+
+
+
+    }
+
+    .fourDivLeft {
+
+        height: 18vmin;
+        width: 80%;
+        font-size: 2.3vmin;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+
+
+    }
+
+
+  
+
+
+
+
+
+
+
+    .fiveDiv {
+
+        height: 20vmin;
+        width: 65%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.9vmin;
+        padding-right: 10px;
+        color: black;
+
+     
+
+    }
+
+    .fiveDivLeft {
+
+        height: 18vmin;
+        width: 80%;
+        font-size: 2.3vmin;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+
+
+    }
+
+
+   
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+
+
+
+    .main {
+        height: 185vmin;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+    }
+
+
+
+    .firstDiv {
+        margin-top: 50px;
+        height: 20vmin;
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 2.6vmin;
+        color: black;
+
+
+
+
+    }
+
+    .firstDivHeadline {
+        font-size: 3.3vmin;
+
+    }
+
+
+
+
+    .secondDiv {
+        height: 45vmin;
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        font-size: 2.7vmin;
+        padding-right: 10px;
+
+
+        color: black;
+
+
+
+    }
+
+
+    .secondDivHeadline {
+        color: firebrick;
+        border-bottom: 2px solid black;
+        font-size: 2.9vmin;
+        padding-bottom: 6px;
+        width: 25vmin;
+    }
+
+
+    .exampleHeadline {
+        height: 7vmin;
+        width: 65%;
+        display: flex;
+        align-items: flex-end;
+        color: blue;
+        font-size: 2.8vmin;
+
+        border-bottom: 2px solid black;
+        margin-bottom: 15px;
+
+
+
+    }
+
+
+
+
+
+    .threedDiv {
+
+        height: 30vmin;
+        width: 65%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 2.65vmin;
+        padding-right: 10px;
+        color: black;
+
+
+
+
+    }
+
+
+
+    .threedDivLeft {
+        height: 28vmin;
+        width: 100%;
+        font-size: 2.7vmin;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+
+
+    }
+
+
+
+
+
+    .fourDiv {
+
+        height: 20vmin;
+        width: 65%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.9vmin;
+        padding-right: 10px;
+        color: black;
+
+
+
+    }
+
+    .fourDivLeft {
+
+        height: 18vmin;
+        width: 100%;
+        font-size: 2.7vmin;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+    .fiveDiv {
+
+        height: 20vmin;
+        width: 65%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.9vmin;
+        padding-right: 10px;
+        color: black;
+
+      
+
+    }
+
+    .fiveDivLeft {
+
+        height: 18vmin;
+        width: 100%;
+        font-size: 2.7vmin;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+
+
+    }
+
+
+
+
+
+}
+
