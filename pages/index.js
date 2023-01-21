@@ -167,7 +167,7 @@ Conceived by sports writer Gabriel Hanot.
 
 
 export async function getServerSideProps(context) {
-  const res = await  fetch(`https://nscoder-blog.app/api/players/top10`)
+  const res = await  fetch(`https://nscoder-blog.vercel.app/api/players/top10`)
   const data = await res.json()
 
   if (!data) {
