@@ -73,8 +73,8 @@
 
 .button {
     padding: 6px;
-    height: 5vmin;
-    width: 22vmin;
+    height: 4.5vmin;
+    width: 16vmin;
     cursor: pointer;
     border: 2.5px solid blue;
     text-decoration: none;
@@ -82,7 +82,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 7px;
-    font-size: 2vmin;
+    font-size: 1.8vmin;
 }
 
 .button a {
