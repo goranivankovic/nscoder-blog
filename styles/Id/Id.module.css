@@ -1,6 +1,7 @@
+
 .main{
  
-    height: 100vmin;
+    min-height: 100dvh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -12,8 +13,8 @@
 
 
 .firstDiv{
-    width: 60%;
-    height: 55vmin;
+
+     max-width: 50rem;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -26,7 +27,8 @@
 
 .headline{
    
-    font-size: 2.5vmin;
+    font-size: 1.25rem;
+    padding: 1em;
     border-bottom: 2px solid black;
 
 }
@@ -39,27 +41,38 @@
 
 .year{
    
-    font-size: 1.9vmin;
+    font-size: 1rem;
+    padding: .5em;
+
 }
 
 .team{
-font-size: 1.9vmin;
+font-size: 1rem;
+padding: .5em;
 }
 
 .points{
-    font-size: 1.9vmin;
+  font-size: 1rem;
+    padding: .5em;
 }
 
 .ranking{
-    font-size: 1.9vmin;
+
+font-size: 1rem;
+    padding: .5em;
+
 }
 
 .firstDivText{
-        display: flex;
-        align-items: center;
-        height: 20vmin;
-        padding-right: 10px;
-        font-size: 1.9vmin;
+
+    display: flex;
+    align-items: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+     padding-left: .5em;
+
+
+        font-size: 1rem;
 
 
         /* border: 2px solid red; */
@@ -69,17 +82,16 @@ font-size: 1.9vmin;
 
 
 .button{
-    padding: 6px;
-    height: 5vmin;
-    width: 22vmin;
-    cursor: pointer;
-    border: 2.5px solid blue;
+    margin-left: .5em;
+    padding: .5em;
+    max-width: 9rem;
+    border: .2em solid blue;
     text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius:7px ;
-    font-size: 2vmin;
+    border-radius:.5em ;
+    font-size:1rem;
 }
 .button a{
     text-decoration: none;
@@ -87,8 +99,8 @@ font-size: 1.9vmin;
 }
 
 .button:hover{
-    transition: 750ms;
-    transform: scale(.95);
+    transition: 450ms;
+    transform: scale(.98);
     border: none;
     background-color: blue;
     color: white;
@@ -98,23 +110,52 @@ font-size: 1.9vmin;
 
 
 
-@media only screen and (max-width:1200px) {
+@media  (max-width:801px) {
+.firstDiv {
+
+        max-width: 40rem;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
 
 
-    .firstDiv {
-            width: 60%;
-            height: 60vmin;
-            display: flex;
-            justify-content: space-around;
-            flex-direction: column;
+
+        /* border: 2px solid red; */
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:641px) {
+.firstDiv {
+
+        max-width: 95%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+
+
+
+        /* border: 2px solid red; */
+
+    }
+
+    .headline {
     
- 
-    
-        }
-    
-        .headline {
-    
-            font-size: 2.5vmin;
+            font-size: 1.1rem;
+            padding: 1em;
+            border-bottom: 2px solid black;
     
         }
     
@@ -126,94 +167,59 @@ font-size: 1.9vmin;
     
         .year {
     
-            font-size: 1.9vmin;
+            font-size: .9rem;
+            padding: .5em;
+    
         }
     
         .team {
-            font-size: 1.9vmin;
+            font-size: .9rem;
+            padding: .5em;
         }
     
         .points {
-            font-size: 1.9vmin;
+            font-size:.9rem;
+            padding: .5em;
         }
     
         .ranking {
-            font-size: 1.9vmin;
+    
+            font-size: .9rem;
+            padding: .5em;
+    
         }
     
         .firstDivText {
+    
             display: flex;
             align-items: center;
-            height: 30vmin;
-            padding-right: 10px;
-            font-size: 1.9vmin;
+            padding-top: 1.5em;
+            padding-bottom: 1.5em;
+            padding-left: .5em;
     
     
-
+            font-size: .9rem;
+    
+    
+            /* border: 2px solid red; */
     
         }
     
+    
+    
+        .button {
+            margin-left: .5em;
+            padding: .5em;
+            max-width: 8rem;
+            border: .2em solid blue;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: .5em;
+            font-size: .9rem;
+        }
 
-}
-
-
-
-
-@media only screen and (max-width:992px) {
-
-
-    .firstDiv {
-        width: 60%;
-        height: 65vmin;
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
-
-   
-
-    }
-
-    .headline {
-
-        font-size: 2.5vmin;
-
-    }
-
-    .flag {
-        height: 30px;
-        width: 30px;
-        margin-left: 10px;
-    }
-
-    .year {
-
-        font-size: 1.9vmin;
-    }
-
-    .team {
-        font-size: 1.9vmin;
-    }
-
-    .points {
-        font-size: 1.9vmin;
-    }
-
-    .ranking {
-        font-size: 1.9vmin;
-    }
-
-    .firstDivText {
-        display: flex;
-        align-items: center;
-        height: 30vmin;
-        padding-right: 10px;
-        font-size: 1.75vmin;
-        
-
-
-
-
-    }
 
 
 }
@@ -225,76 +231,17 @@ font-size: 1.9vmin;
 
 
 
-@media only screen and (max-width:768px) {
-
-
-    .firstDiv {
-        width: 75%;
-        height: 65vmin;
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
-
-  
-
-
-
-    }
-
-    .headline {
-
-        font-size: 2.7vmin;
-
-    }
-
-    .flag {
-        height: 20px;
-        width: 20px;
-        margin-left: 10px;
-    }
-
-    .year {
-
-        font-size: 2.1vmin;
-    }
-
-    .team {
-        font-size: 2.1vmin;
-    }
-
-    .points {
-        font-size: 2.1vmin;
-    }
-
-    .ranking {
-        font-size: 2.1vmin;
-    }
-
-    .firstDivText {
-        display: flex;
-        align-items: center;
-        max-height: 45vmin;
-        padding-right: 10px;
-        font-size: 2.3vmin;
-        overflow: scroll;
-        padding-top: 60px;
-
-
-      
-
-    }
-
-
-}
 
 
 
 
-@media only screen and (max-width:600px) {
+
+
+@media (max-width:500px) {
 
     .main {
     
-            height: 130vmin;
+            min-height: 85dvh;
             width: 100%;
             display: flex;
             align-items: center;
@@ -303,159 +250,98 @@ font-size: 1.9vmin;
             cursor: pointer;
         }
 
-
     .firstDiv {
-        width:80%;
-        height: 70vmin;
+
+        max-width: 95%;
         display: flex;
         justify-content: space-around;
         flex-direction: column;
 
 
 
-
+        /* border: 2px solid red; */
 
     }
 
     .headline {
 
-        font-size: 2.8vmin;
+        font-size: 1rem;
+        padding: 1em;
+        border-bottom: 2px solid black;
 
     }
 
     .flag {
-        height: 15px;
-        width: 15px;
+        height: 25px;
+        width: 25px;
         margin-left: 10px;
     }
 
     .year {
 
-        font-size: 2.3vmin;
+        font-size: .85rem;
+        padding: .5em;
+
     }
 
     .team {
-        font-size: 2.3vmin;
+        font-size: .85rem;
+        padding: .5em;
     }
 
     .points {
-        font-size: 2.3vmin;
+        font-size: .85rem;
+        padding: .5em;
     }
 
     .ranking {
-        font-size: 2.3vmin;
+
+        font-size: .85rem;
+        padding: .5em;
+
     }
 
     .firstDivText {
+        margin-bottom: 1em;
+  
         display: flex;
         align-items: center;
-        max-height: 45vmin;
-        padding-right: 10px;
-        font-size: 2.2vmin;
-        padding-top: 60px;
-        overflow: scroll;
+        padding-top: 4em;
+        padding-bottom: 1.5em;
+        padding-left: .5em;
 
- 
+       scroll-margin-inline: 0;
 
+        max-height: 18rem;
+        overflow-y: scroll;
+
+   
+
+
+        font-size: .85rem;
+
+
+        /* border: 2px solid red; */
 
     }
 
 
-}
 
-
-
-
-
-
-@media only screen and (max-width:500px) {
-
-    .main {
-
-        height: 150vmin;
-        width: 100%;
+    .button {
+        margin-left: .5em;
+        padding: .5em;
+        max-width: 8rem;
+        border: .2em solid blue;
+        text-decoration: none;
         display: flex;
         align-items: center;
-        flex-direction: column;
         justify-content: center;
-        cursor: pointer;
+        border-radius: .5em;
+        font-size: .85rem;
     }
 
-
-    .firstDiv {
-        width: 80%;
-        height: 75vmin;
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
-
-
-
-
-
-    }
-
-    .headline {
-
-        font-size: 3.1vmin;
-
-    }
-
-    .flag {
-        height: 15px;
-        width: 15px;
-        margin-left: 10px;
-    }
-
-    .year {
-
-        font-size: 2.4vmin;
-    }
-
-    .team {
-        font-size: 2.7vmin;
-    }
-
-    .points {
-        font-size: 2.8vmin;
-    }
-
-    .ranking {
-        font-size: 2.8vmin;
-    }
-
-    .firstDivText {
-        display: flex;
-        align-items: center;
-        max-height: 45vmin;
-        padding-right: 10px;
-        font-size: 2.6vmin;
-        padding-top: 60px;
-        overflow: scroll;
-
-
-
-
-    }
-
-
-        .button {
-            padding: 6px;
-            height: 6.5vmin;
-            width: 25vmin;
-            cursor: pointer;
-            border: 2.5px solid blue;
-            text-decoration: none;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 7px;
-            font-size: 2.7vmin;
-        }
 
 
 }
-
-
 
 

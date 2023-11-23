@@ -40,7 +40,7 @@ export default function Home(props) {
 
             <div className={homeStyle.headline}>
 
-               Final results as Lionel Messi takes home 7th player of the year award
+              Final results OF Ballon Dor 2021
 
                </div>
 

@@ -22,7 +22,7 @@ export default function developers(props) {
             <div className={devStyles.main}>
 
 
-                {/* First Div */}
+                 {/* First Div  */}
                 
                 <div className={devStyles.firstDiv}>
 
@@ -34,7 +34,7 @@ export default function developers(props) {
                 </div>
 
 
-                 {/*Second Div */}
+             
                 
                 <div className={devStyles.secondDiv}>
 
@@ -49,47 +49,46 @@ export default function developers(props) {
 
 
 
-                 
+                 {/* Get SINGEL PALYER  */}
 
 
            <div className={devStyles.exampleHeadline}>EXAMPLE ONE  </div>
+    
+           <div className={devStyles.fourDiv}>
 
-                 {/*Threed Div */}
-                
-                <div className={devStyles.threedDiv}>
+                   <div className={devStyles.fourDivLeft}>
 
-                     <div className={devStyles.threedDivLeft}>
-                    <span>Exemple GET a single player by ranking</span> 
-                    <span>Exemple URL: https://nscoder-blog.vercel.app/api/players/p1</span>
-                    <span>Exemple gets number 1 rankingRange between 1 - 10</span> 
+                    <span>Exemple GET singl palyer</span>
+                    <span> https://nscoder-blog.vercel.app/api/players/p1</span>
+
+
                      </div>
 
+                     <div className={devStyles.fourDivRight}>
 
-                      <div className={devStyles.threedRight}>
-
-                        {JSON.stringify(props.data[0])}
-
+                   
+                         {JSON.stringify(props.data[0])}
+                   
                      </div>
 
             </div>
 
+                
+       
 
-
-
-
-
-
+          
+              {/* Get TOP 5  players */}
                  
            <div className={devStyles.exampleHeadline}>EXAMPLE TWO  </div>
 
-                 {/*Four Div */}
+               
                 
                 <div className={devStyles.fourDiv}>
 
                      <div className={devStyles.fourDivLeft}>
 
                     <span>Exemple GET top 5 players</span>
-                    <span>  Exemple URL: https://nscoder-blog.vercel.app/api/players/top5</span>
+                    <span>  https://nscoder-blog.vercel.app/api/players/top5</span>
 
 
                      </div>
@@ -108,34 +107,39 @@ export default function developers(props) {
 
 
 
-
+   {/* Get TOP 10  players */}
                   
            <div className={devStyles.exampleHeadline}>EXAMPLE THREE </div>
 
-                 {/*Five Div */}
-                
-                <div className={devStyles.fiveDiv}>
 
-                     <div className={devStyles.fiveDivLeft}>
+             
+                <div className={devStyles.fourDiv}>
+
+                     <div className={devStyles.fourDivLeft}>
 
                     <span>Exemple GET top 10 players</span>
-                    <span>Exemple URL: https://nscoder-blog.vercel.app/api/players/top10</span>
+                    <span>  https://nscoder-blog.vercel.app/api/players/top10</span>
 
 
                      </div>
 
-                     <div className={devStyles.fiveDivRight}>
+                     <div className={devStyles.fourDivRight}>
 
                    
                          {JSON.stringify(props.data[2])}
                    
                      </div>
-                     
+
             </div>
 
-             </div>
+              
+                     
+        
 
-             {/* Zavrsetak Main diva */}
+          
+          
+
+            </div>
 
 
 
@@ -153,6 +157,9 @@ export default function developers(props) {
 export async function getServerSideProps(context) {
     const res = await  fetch(`https://nscoder-blog.vercel.app/api/players/top10`)
     const data = await res.json()
+
+
+    // console.log(data[5]);
   
   
     if (!data) {

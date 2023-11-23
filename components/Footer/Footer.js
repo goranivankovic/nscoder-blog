@@ -12,7 +12,7 @@ function Footer() {
   return (
     <div className={footerStyles.main}>
 
-         <a href="https://gomadesign.netlify.app" target="_blank" rel="noreferrer" >ALL RIGHTS RESERVED || gomaDesign</a>
+         <a href="https://gomadesign.netlify.app" target="_blank" rel="noreferrer" >All rights reserved || ma-go</a>
 
 
     </div>

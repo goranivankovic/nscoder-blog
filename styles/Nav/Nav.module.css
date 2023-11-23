@@ -5,7 +5,7 @@
 
     z-index: 600;
     cursor: pointer;
-    font-size: 2.2vmin;
+    padding: .25em;
     background-color: black;
    
 
@@ -14,7 +14,7 @@
 
 
 .headline{
-    font-size: 2.3vmin;
+    font-size: 1.3rem;
     margin-left: 10px;
     color: white;
 }
@@ -25,27 +25,26 @@
 }
 
 .navitems{
-    font-size: 1.7vmin;
+    font-size: .95rem;
 }
 
 
 .searchText{
-    font-size: 1.6vmin;
+    font-size: 1rem;
 }
 
 .button{
-    padding: 5px;
-    font-size: 1.6vmin;
-    width: 15vmin;
-   
-    border-radius: 7px;
-    border: 2px solid firebrick;
+    padding: .5em;
+    font-size: .9rem;
+    min-width: 6rem;
+    border-radius: .6em;
+    border: .2em solid firebrick;
     background-color: white;
     color: black;
 }
 
 .button:hover{
-    transition: 750ms;
+    transition: 450ms;
     border: none;
     background-color:firebrick ;
     color: white;
@@ -54,147 +53,44 @@
 
 
 
- @media only screen and (max-width: 768px) {
+ @media (max-width: 801px) {
+.headline {
+        font-size: 1.2rem;
+        margin-left: 10px;
+        color: white;
+    }
 
-    .nav {
-            height: 6vmin;
-            width: 100%;
-            z-index: 10;
-            cursor: pointer;
-            font-size: 2.3vmin;
-            background-color: black;
-    
-        }
-    
-    
-        .headline {
-            font-size: 2.4vmin;
-            margin-left: 10px;
-        }
-    
-        .headline:hover {
-            transition: 750ms;
-            color: firebrick;
-        }
-    
-        .navitems {
-            font-size: 2vmin;
-        }
-    
-    
-        .searchText {
-            font-size: 1.8vmin;
-        }
-    
-        .button {
-            padding: 5px;
-            font-size: 1.8vmin;
-            width: 15vmin;
-    
-            border-radius: 7px;
-            border: 2px solid firebrick;
-            background-color: white;
-            color: black;
-        }
+    .headline:hover {
+        transition: 750ms;
+        color: firebrick;
+    }
+
+    .navitems {
+        font-size: .9rem;
+    }
 
 
+    .searchText {
+        font-size: .9rem;
+    }
+
+    .button {
+        padding: .5em;
+        font-size: .85rem;
+        min-width: 6rem;
+        border-radius: .6em;
+        border: .2em solid firebrick;
+        background-color: white;
+        color: black;
+    }
+
+    .button:hover {
+        transition: 450ms;
+        border: none;
+        background-color: firebrick;
+        color: white;
+    }
+   
  }
 
 
-
-
- @media only screen and (max-width: 600px) {
-
-     .nav {
-         height: 6vmin;
-         width: 100%;
-         z-index: 10;
-         cursor: pointer;
-         font-size: 2.3vmin;
-         background-color: black;
-
-     }
-
-
-     .headline {
-         font-size: 2.7vmin;
-         margin-left: 10px;
-     }
-
-     .headline:hover {
-         transition: 750ms;
-         color: firebrick;
-     }
-
-     .navitems {
-         font-size: 2.3vmin;
-     }
-
-
-     .searchText {
-         font-size: 2vmin;
-     }
-
-     .button {
-         padding: 5px;
-         font-size: 2vmin;
-         width: 17vmin;
-
-         border-radius: 7px;
-         border: 2px solid firebrick;
-         background-color: white;
-         color: black;
-     }
-
-
- }
-
-
-
-
- @media only screen and (max-width: 500px) {
-
-     .nav {
-         height: 6vmin;
-         width: 100%;
-         z-index: 10;
-         cursor: pointer;
-         font-size: 2.8vmin;
-         background-color: black;
-
-     }
-
-  
-
-     .headline {
-         font-size: 3.8vmin;
-         margin-left: 10px;
-     }
-
-     .headline:hover {
-         transition: 750ms;
-         color: firebrick;
-     }
-
-     .navitems {
-         font-size: 2.8vmin;
-     }
-
-
-     .searchText {
-         font-size: 2.6vmin;
-     }
-
-     .button {
-         padding: 5px;
-         font-size: 2.5vmin;
-         width: 29vmin;
-
-         border-radius: 7px;
-         border: 2px solid firebrick;
-         background-color: white;
-         color: black;
-     }
-
-
- }
