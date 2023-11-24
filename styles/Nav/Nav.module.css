@@ -5,8 +5,9 @@
 
     z-index: 600;
     cursor: pointer;
-    padding: .25em;
+    /* padding: .25em; */
     background-color: black;
+    border: none;
    
 
   
